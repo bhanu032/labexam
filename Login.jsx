@@ -3,7 +3,7 @@ import "./login.css";
 import { loginCall } from "../../apiCalls";
 import { AuthContext } from "../../context/AuthContext";
 import { CircularProgress } from "@material-ui/core";
-import logo from "../../images/logo.png";
+ 
 
 export default function Login() {
   const email = useRef();
